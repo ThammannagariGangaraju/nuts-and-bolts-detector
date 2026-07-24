@@ -1,0 +1,31 @@
+# ==========================================================
+# Bolt & Nut Detection Dataset Configuration
+# ==========================================================
+
+# Dataset Paths
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+# ==========================================================
+# Classes
+# ==========================================================
+
+# Total number of classes
+nc: 2
+
+# Class Names
+names:
+  0: bolt
+  1: nut
+
+# ==========================================================
+# Roboflow Information
+# ==========================================================
+
+roboflow:
+  workspace: kletech-university
+  project: nutsandbolts
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kletech-university/nutsandbolts/dataset/2
